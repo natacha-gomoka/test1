@@ -1,18 +1,18 @@
-*#intro {
+#intro {
     background-image: url(submit.jpg);
     background-repeat: round;
     }
     #about{
-    background-color: bisque;
+    background-color: rgb(35, 20, 238);
     }
     #projects{
-    background-color: blanchedalmond;
+    background-color: rgb(35, 20, 238);
     }
-    #partnerst{
-    background-color: blanchedalmond;
+    #partners{
+    background-color: rgb(35, 20, 238);
      }
     #contact{
-    background-color: blanchedalmond;
+    background-color: rgb(35, 20, 238);
      }
 {
     padding: 0;
