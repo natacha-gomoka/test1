@@ -2,19 +2,36 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Brain Works Africa</title>
 		<link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
-
+		<style>
+			body {font-family: "Lato", sans-serif}
+			.mySlides {display: none}
+			</style>
 	</head>
 	<body style="background-image:rgb(166, 168, 240)";> 
 <!-- navbar -->
-			<ul class="nav">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="about.html">About</a></li>
-                <li><a href="project.html">projects</a></li>
-				<li><a href="partners.html">Partners</a></li>
-				<li><a href="Contactus.html">contact</a></li>
-			</ul>
+<div class="w3-top">
+	<div class="w3-bar w3-black w3-card">
+	  <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+	  <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+	  <a href="about.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT </a>
+	  <a href="project.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PROJECT </a>
+	  <a href="partners.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PARTNERS</a>
+	  <a href="Contactus.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+	</div>
+	<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+		<a href="about.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">	ABOUT</a>
+		<a href="project.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PROJECT</a>
+		<a href="partners.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PARTNERS</a>
+		<a href="Contactus.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+		<a href="index.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">HOME</a>
+	  </div>
+	  
+	  <!-- Page content -->
+	  <div class="w3-content" style="max-width:2000px;margin-top:46px">
+	  
 <!-- navbar -->
             <div class="container">
 	        <h1 style="text-align:center;color:DodgerBlue;">Brain Works Africa</h1>
